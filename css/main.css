@@ -425,6 +425,9 @@ footer p{
 	.modal .navigation li{
 	font-size: 30px;
 	}
+	.modal .navigation .submenu li{
+	font-size: 20px;
+	}
 }
 
 @media screen and (max-width: 480px){
@@ -452,6 +455,9 @@ footer p{
 	}
 	.modal .navigation li{
 	font-size: 25px;
+	}
+	.modal .navigation .submenu li{
+	font-size: 18px;
 	}
 }
 
