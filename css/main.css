@@ -352,14 +352,14 @@ ul.social_media a{
 	text-decoration: none;
 }
 
-ul.social_media article time{
+/*ul.social_media article time{
 	margin-top: 10px;
 }
 
 .twitter article{
 	margin-left: 42px;
 	width: 70%;
-}
+}*/
 
 .twitter:before, .facebook:before, .linkedin:before{
 	position: relative;
@@ -407,6 +407,10 @@ footer p{
 	aside{
 		width: 60%;
 	}
+	.fa, .fa-twitter{
+	font-size: 26px;
+	margin-right: 10px;
+	}
 }
 
 @media screen and (max-width: 768px){
@@ -427,6 +431,11 @@ footer p{
 	}
 	.modal .navigation .submenu li{
 	font-size: 20px;
+	margin-bottom: 10px;
+	}
+	.fa, .fa-twitter{
+	font-size: 24px;
+	margin-right: 7px;
 	}
 }
 
@@ -446,18 +455,29 @@ footer p{
 	.social_media h3, .social_media article{
 		display: none;
 	}
-	ul.social_media li{
+	
+	*.social_media li{
 		display: inline-block;
+		font-size: 22px
 		text-align: justify;
+		margin-bottom: 7px;
 	}
-	ul.social_media li h3{
+
+	/*ul.social_media li h3{
 		display: none;
-	}
+	}*/
+
 	.modal .navigation li{
 	font-size: 25px;
 	}
 	.modal .navigation .submenu li{
-	font-size: 18px;
+	font-size: 24px;
+	margin-bottom: 7px;
+	}
+
+	.fa, .fa-twitter{
+	font-size: 22px;
+	margin-right: 5px;
 	}
 }
 
