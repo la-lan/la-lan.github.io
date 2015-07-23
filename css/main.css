@@ -184,7 +184,7 @@ header nav{
 	position: relative;
 	display: inline-block;
 	margin-right: 4vw;
-	font-size: 4vw;
+	font-size: 50px;
 	color: #fff;
 	opacity: 0;
 	top: 20px;
@@ -422,6 +422,9 @@ footer p{
 		margin-bottom: 0px;
 		line-height: 0px;
 	}
+	.modal .navigation li{
+	font-size: 30px;
+	}
 }
 
 @media screen and (max-width: 480px){
@@ -446,6 +449,9 @@ footer p{
 	}
 	ul.social_media li h3{
 		display: none;
+	}
+	.modal .navigation li{
+	font-size: 25px;
 	}
 }
 
