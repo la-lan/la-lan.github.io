@@ -409,22 +409,37 @@ footer p{
 	aside{
 		width: 60%;
 	}
+	html{
+		font-size: 16px;
+	}
 }
 
 @media screen and (max-width: 768px){
 	main, aside{
 		width: 100%;
 	}
+		html{
+		font-size: 14px;
+	}
 }
 
 @media screen and (max-width: 480px){
+	html{
+		font-size: 14px;
+	}
 	h1{
-		font-size: 72px;
+		font-size: 100px;
 	}
 
 	.lead{
 		font-size: 20px;
+		color: #fff;
 	}
+
+	p{
+		color: #fff;
+	}
+
 	input{
 		width: 100%;
 	}
